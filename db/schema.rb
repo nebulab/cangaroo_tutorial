@@ -11,7 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160503115931) do
+ActiveRecord::Schema.define(version: 20160503120657) do
+
+  create_table "cangaroo_connections", force: :cascade do |t|
+    t.string   "name"
+    t.string   "url"
+    t.string   "key"
+    t.string   "token"
+    t.datetime "created_at",                      null: false
+    t.datetime "updated_at",                      null: false
+    t.text     "parameters", default: "--- {}\n"
+  end
 
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string   "slug",                      null: false
