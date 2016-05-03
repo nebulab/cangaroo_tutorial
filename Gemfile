@@ -38,6 +38,7 @@ gem 'cangaroo'
 gem 'solidus_cangaroo', github: 'nebulab/solidus_cangaroo', branch: 'master'
 
 group :development, :test do
+  gem 'dotenv-rails', '~> 2.1'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 end

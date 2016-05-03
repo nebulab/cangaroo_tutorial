@@ -8,3 +8,5 @@ Spree::Wombat::Config.configure do |config|
   }
   config.push_url = "http://localhost:3000/cangaroo/endpoint"
 end
+
+Rails.configuration.cangaroo.jobs = [Cangaroo::TweetProductJob]
