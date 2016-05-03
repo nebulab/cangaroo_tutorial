@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/nebulab/solidus_cangaroo.git
+  revision: 794123872ec53c1479552bef9c98fc257c59f604
+  branch: master
+  specs:
+    solidus_cangaroo (2.2.0)
+      active_model_serializers (= 0.9.0.alpha1)
+      httparty
+      solidus_core (~> 1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -20,6 +30,8 @@ GEM
       erubis (~> 2.7.0)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    active_model_serializers (0.9.0.alpha1)
+      activemodel (>= 3.2)
     activejob (4.2.6)
       activesupport (= 4.2.6)
       globalid (>= 0.3.0)
@@ -338,6 +350,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   solidus
   solidus_auth_devise
+  solidus_cangaroo!
   spring
   sqlite3
   turbolinks
