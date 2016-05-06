@@ -5,7 +5,7 @@ Cangaroo tutorial is an example application on how to setup
 [Cangaroo](https://github.com/nebulab/cangaroo) to tweet every time a new
 product is created into a [Solidus](http://solidus.io/) store.
 It's a demo application made for the
-[Cangaroo Tutorial](http://nebulab.it/blog/cangaroo-tutorial/) blogpost.
+[Cangaroo Tutorial](http://nebulab.it/blog/integrate-your-solidus-store-with-external-services-using-cangaroo) blogpost.
 
 Setup
 -----
@@ -37,4 +37,4 @@ twitter_token_secret='your_twitter_token_secret'
 
         $ rails server
 
-6. Read the [article](http://nebulab.it/blog/cangaroo-tutorial/) and play with it.
+6. Read the [article](http://nebulab.it/blog/integrate-your-solidus-store-with-external-services-using-cangaroo) and play with it.
